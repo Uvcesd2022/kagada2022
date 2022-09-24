@@ -1037,7 +1037,7 @@ section {
   border-top: 3px solid #16df7e;
   border-bottom: 3px solid #16df7e;
   padding: 30px;
-  width: 100%;
+  width: 150%;
   background-color: white;
 }
 .contact .details h3 {
@@ -1069,14 +1069,14 @@ section {
 
 .contact .info h4 {
   padding: 0 0 0 30px;
-  font-size: 27px;
+  font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
   color: #5f687b;
 }
 .contact .details h2 {
   padding: 0 0 0 30px;
-  font-size: 22px;
+  font-size: 27px;
   font-weight: 600;
   margin-bottom: 5px;
   color: #5f687b;
