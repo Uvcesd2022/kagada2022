@@ -843,6 +843,13 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+.images
+{
+  width: 75%;
+  height: 75%;
+  margin: auto;
+}
+
 
 /*--------------------------------------------------------------
 # Testimonials
