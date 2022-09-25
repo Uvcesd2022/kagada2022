@@ -5,9 +5,9 @@
 * License: https://bootstrapmade.com/license/
 */
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+/*
+General
+*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -31,9 +31,40 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
+
+/*
+Button
+*/
+.button-33 {
+  margin: 10px 10px auto auto;
+  width: 30%;
+  max-width: 200px;
+  min-width: 100px;
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 1em;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+/*
+Back to top button
+*/
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -44,7 +75,7 @@ h6 {
   background: #16df7e;
   width: 40px;
   height: 40px;
-  border-radius: 4px;
+  border-radius: 30px;
   transition: all 0.4s;
 }
 
@@ -64,11 +95,11 @@ h6 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
+/*
+Header
+*/
 #header {
-  background: #fff;
+  background: rgb(241, 240, 240);
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
@@ -102,9 +133,9 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
+/*
+Navigation Menu
+*/
 /**
 * Desktop Navigation 
 */
@@ -348,9 +379,10 @@ h6 {
   display: block;
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
+
+/*
+Hero Section
+*/
 #hero {
   width: 100%;
   height: 80vh;
@@ -483,9 +515,9 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
+/*
+Sections General
+*/
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -542,9 +574,9 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Featured Services
---------------------------------------------------------------*/
+/*
+Featured Services
+*/
 .featured-services {
   padding: 0;
 }
@@ -592,9 +624,9 @@ section {
   font-size: 14px;
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
+/*
+About
+*/
 .about .content h3 {
   font-weight: 700;
   font-size: 32px;
@@ -620,9 +652,9 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Counts
---------------------------------------------------------------*/
+/*
+Counts
+*/
 .counts {
   padding-top: 0;
 }
@@ -642,9 +674,9 @@ section {
   font-weight: 600;
 }
 
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
+/*
+Services
+*/
 .services .icon-box {
   text-align: center;
   border: 1px solid #fff;
@@ -693,9 +725,9 @@ section {
   color: #16df7e;
 }
 
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
+/*
+Portfolio
+*/
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 25px auto;
@@ -778,9 +810,9 @@ section {
   bottom: 20px;
 }
 
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
+/*
+Portfolio Details
+*/
 .portfolio-details {
   padding-top: 40px;
 }
@@ -850,9 +882,9 @@ section {
 }
 
 
-/*--------------------------------------------------------------
-# Testimonials
---------------------------------------------------------------*/
+/*
+Testimonials
+*/
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
@@ -932,9 +964,9 @@ section {
   background-color: #16df7e;
 }
 
-/*--------------------------------------------------------------
-# Cta
---------------------------------------------------------------*/
+/*
+Cta
+*/
 .cta {
   background: #16df7e;
   background-size: cover;
@@ -971,9 +1003,9 @@ section {
   border-color: #206bfb;
 }
 
-/*--------------------------------------------------------------
-# Team
---------------------------------------------------------------*/
+/*
+Team
+*/
 .team .member {
   text-align: center;
   margin-bottom: 20px;
@@ -1023,9 +1055,9 @@ section {
   margin: 0 2px;
 }
 
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
+/*
+Contact
+*/
 .contact .info {
   border-top: 3px solid #16df7e;
   border-bottom: 3px solid #16df7e;
@@ -1229,9 +1261,9 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
+/*
+Breadcrumbs
+*/
 .breadcrumbs {
   padding: 15px 0;
   background: #f9f9fa;
@@ -1281,9 +1313,9 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
+/*
+Footer
+*/
 #footer {
   background-color: #f3f4f6;
   color: #5f687b;
