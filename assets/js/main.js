@@ -1,11 +1,19 @@
-/**
-* Template Name: eNno - v4.9.0
-* Template URL: https://bootstrapmade.com/enno-free-simple-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-(function() {
-  "use strict";
+
+// (function() {
+//   "use strict";
+document.onreadystatechange = function() {
+  if (document.readyState !== "complete") {
+      document.querySelector(
+        "body").style.visibility = "hidden";
+      document.querySelector(
+        "#preloader").style.visibility = "visible";
+  } else {
+      document.querySelector(
+        "#preloader").style.display = "none";
+      document.querySelector(
+        "body").style.visibility = "visible";
+  }
+};
 
   /**
    * Easy selector helper function
