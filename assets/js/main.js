@@ -86,6 +86,15 @@ document.onreadystatechange = function() {
     })
   }
 
+  // Preloader
+ let preloader = select('#preloader');
+  if (preloader) {
+    window.addEventListener('load', () => {
+      preloader.remove()
+    });
+  }
+  
+
   /**
    * Toggle .header-scrolled class to #header when page is scrolled
    */
