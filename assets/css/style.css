@@ -8,6 +8,11 @@ body {
   color: #444444;
   text-align: justify;
 }
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+}
 /*
 Loaders
 */
