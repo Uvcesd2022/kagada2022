@@ -65,7 +65,7 @@ Loaders
 }
 /*container
 */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   .container{
     padding-right:10%;
     padding-left: 10%;
@@ -534,7 +534,7 @@ Hero Section
 
 @media (max-width: 768px) {
   #hero {
-    height: auto;
+    height: 100vh;
   }
 
   #hero h1 {
