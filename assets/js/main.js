@@ -232,3 +232,23 @@ document.onreadystatechange = function() {
       clickable: true
     }
   });
+  function  myfunction1()
+  {
+    alert("Technical paper Presentation is one of the divisions in Kagada, where UG/PG/Ph.D. students of various institutions are allowed to present their technical papers in standard IEEE Paper format. There will be 2 tracks namely UG/PG Paper Presentation and WIE Paper Presentation.");
+  }
+  function feature2()
+  {
+    alert("Poster Presentation is a way to communicate your research ideas in a pictorial, short and concise format. The content in the technical poster needs to be analyzed, evaluated and creatively presented to grab everyone's attention. From engaging the audience to creating a story during presentation is all where the magic lies.");
+  }
+  function  myfunction3()
+  {
+    alert("Project Exhibition is one of the tracks in Kagada where students are provided with the platform to unleash the potential by showcasing their innovative ideas come into reality. If qualified, a working model of the project has to be presented.");
+  }
+  function  myfunction4()
+  {
+    alert("Ottige Kaliyona is an event conducted by IEEE UVCE WIE where students from a government school are invited to the college campus. The main aim of the day-long event is to impart technical education to the underprivileged students. Students are engaged in a technical session and fun filled activities, which helps them improve their technical and communication skills. We spend time with the students during lunch as well as before signing their day off with goodies like exam pads, pouches and other stationery.");
+  }
+  function  myfunction5()
+  {
+    alert("Food for Cause is an initiative taken up by zealous and energetic volunteers where they will have to prepare and sell delicious snacks and dishes to the participants. The profit received from this initiative will be donated to an NGO. Food for Cause proves to be a successful and an exciting journey for students who are organizing and also acts as a refreshing spot for the participants too.");
+  }
