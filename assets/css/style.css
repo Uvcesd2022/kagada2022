@@ -583,9 +583,32 @@ Hero Section
 Sections General
 */
 section {
+  animation: fadeInUp 10s 0 1 1 forwards both;
   padding: 30px 0;
   overflow: hidden;
 }
+@keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
 
 .section-bg {
   background-color: #f9f9fa;
@@ -1155,11 +1178,13 @@ Contact
   background-color: #f9f9fa;
 }
 .contact i {
-  font-size: 20px;
+  font-size: 1.3em;
   color: #16df7e;
   float: left;
-  width: 44px;
-  height: 44px;
+  width: 1.5em;
+  margin-top: 10px;
+  margin-right: 10px;
+  height: 1.5em;
   background: #fff;
   display: flex;
   justify-content: center;
@@ -1180,8 +1205,8 @@ Contact
   color: #5f687b;
 }
 .contact .details h4 {
-  padding: 0 0 0 30px;
-  font-size: 24px;
+  padding: 7px 0 0 30px;
+  font-size: 1.4em;
   font-weight: 600;
   margin-bottom: 5px;
   color: #5f687b;
