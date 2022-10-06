@@ -39,18 +39,21 @@
   <header id="header" class="fixed-top" >
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">KAGADA</a></h1>
+      <h1 class="logo"><a href="index.html">
+        <img src="./images/kagada-removebg-preview.png" alt="" srcset="">
+      </a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About Uvce</a></li>
+          <li><a class="nav-link scrollto" href="#about">About UVCE</a></li>
+          <li><a class="nav-link scrollto" href="#ieee">About IEEE UVCE</a></li>
           <li><a class="nav-link scrollto" href="#kagada">About Kagada</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">Features</a></li>
           <li><a class="nav-link scrollto" href="#galleries">Gallery</a></li>
-          <!-- <li><a class="nav-link scrollto " href="#portfolio">Contact</a></li> -->
-          <li><a class="nav-link scrollto" href="#team">Contact</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a> -->
             <!-- <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -78,16 +81,18 @@
   </header><!-- End Header -->
 <!-- style="background-image:url('download.jpeg');background-size:cover;background-repeat: no-repeat;" -->
   <!-- Hero Section -->
-  <section id="hero" class="d-flex align-items-center" style="background-color: #A66CFF;background-size:cover;background-repeat: no-repeat;" >
+  <div class="backgrounds">
+  <section id="hero" class="d-flex align-items-center">
 
     <div class="container">
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-1 order-lg-1 d-flex flex-column justify-content-center">
           <img src="./images/kagada-removebg-preview.png" alt="" srcset="">
-          <!-- <div class="d-flex">
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
-            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
-          </div> -->
+          <div class="col-lg-12">
+            <a href="https://forms.gle/5v4TNA9vEcfDvBUGA"><button class="btn-hero first">Poster Presentation</button></a>
+            <a href="https://forms.gle/jaGeYRWoSZThQQbz8"><button class="btn-hero first">Paper Presentation</button></a>
+            <a href="https://forms.gle/HbmgTBKt5Hjh4J7N6"><button class="btn-hero first"> Project Presentation</button></a>
+          </div>
         </div>
         <div class="col-lg-6 order-2 order-lg-2 hero-img">
           <img src="./output-onlinegiftools (1).gif" class="img-fluid animated" alt="">
@@ -114,48 +119,9 @@
       </div> -->
       
    
-  </section><!-- End Hero -->
+  </section>
+  </div><!-- End Hero -->
 
-  <main id="main">
-
-    <!-- Featured Services Section -->
-    <section id="featured-services" class="featured-services">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-laptop"></i></div>
-              <h4 class="title"><a href="">Poster presentation</a></h4>
-              <p class="description">
-               
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <div class="icon">
-                <i class="bi bi-clipboard-data"></i></div>
-              <h4 class="title"><a href="">Paper Presentation</a></h4>
-              <p class="description"></p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-            <div class="icon-box">
-              <div class="icon">
-                <i class="bi bi-cpu-fill">
-
-              </i></div>
-              <h4 class="title"><a href="">Project Presentation</a></h4>
-              <p class="description"></p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Featured Services Section -->
-
-    <!-- About Section -->
     <div style="margin: top 2em;">
 
     </div>
@@ -178,7 +144,7 @@
 
       </div>
     </section>
-    <section id="about" class="about">
+    <section id="ieee" class="about" style="background-color: #f9f9fa;">
       <div class="container" >
         <div class="section-title">
           <span>IEEE UVCE</span>
@@ -196,7 +162,7 @@
           </div>
         </div>
       </section>
-        <section id="kagada" id class="about" style="background-color: #f9f9fa;">
+        <section id="kagada" id class="about">
           <div class="container">
             <div class="section-title">
               <span>KAGADA</span>
@@ -217,21 +183,21 @@
       </div>
     </section><!-- End About Section -->
 
-    <section id="portfolio" class="portfolio">
+    <section id="portfolio" class="portfolio" style="background-color: #f9f9fa;">
       <div class="container">
 
         <div class="section-title">
-          <span>Feature</span>
-          <h2>Feature</h2>
+          <span>Features</span>
+          <h2>Features</h2>
         </div>
 
         <div class="row">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter=".filter-poster">Poster</li>
-              <li data-filter=".filter-paper">Paper</li>
-              <li data-filter=".filter-project">Project</li>
-              <li data-filter=".filter-votti">Vottige Kaliyona</li>
+              <li data-filter=".filter-poster">Poster Presentation</li>
+              <li data-filter=".filter-paper">Paper Presentation</li>
+              <li data-filter=".filter-project">Project Presentation</li>
+              <li data-filter=".filter-votti">Ottige Kaliyona</li>
               <li data-filter=".filter-food">Food for Cause</li>
             </ul>
           </div>
@@ -240,9 +206,9 @@
         <div class="row portfolio-container">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-poster">
-            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/poster.jpeg" class="img-fluid" styles="margin: auto" alt="">
             <div class="portfolio-info">
-              <h4>Poster</h4>
+              <h4>Poster Presentation</h4>
               <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
               <button class= "details-link" data-bs-toggle="modal" data-bs-target="#modalscreen1"><i class="bx bx-link"></i></button>
             </div>
@@ -255,12 +221,8 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id venenatis turpis. Phasellus efficitur nisi enim, in ultricies turpis interdum sit amet. Aenean tristique tempor erat at imperdiet. Duis a nunc ut orci consectetur tempor at id eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur a quam mollis, maximus eros ac, rhoncus nisi. Curabitur quis aliquam lacus, quis congue ligula. Nunc convallis nibh in eros mattis pretium. Vivamus fringilla vestibulum justo ac maximus.
-
-Aliquam porta nunc nec purus vestibulum convallis. Integer malesuada diam nec eros vulputate, et condimentum lacus hendrerit. Phasellus hendrerit ligula in orci sollicitudin fermentum. Phasellus dignissim et sem vel laoreet. Nullam ac ex at dolor ultrices volutpat. Integer rutrum, augue a ullamcorper aliquam, ante augue molestie urna, eu posuere elit elit tempus ipsum. Praesent egestas tempus eros ac gravida. Vestibulum porta dolor eu ipsum dapibus, quis interdum magna congue. Suspendisse auctor massa id risus pretium, non vestibulum nulla gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent gravida ornare turpis id semper. Nulla ac facilisis urna.
-
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras tempor imperdiet est, non hendrerit tortor commodo ac. Maecenas convallis, magna id varius lobortis, nibh metus dictum arcu, tempus egestas ipsum magna id erat. Praesent pellentesque metus orci. Curabitur sed libero ornare, egestas libero at, feugiat lectus. Vestibulum sed turpis sed leo imperdiet rhoncus in nec nulla. Aenean malesuada vitae est quis placerat. Vivamus a condimentum sem.
-                </div>
+                  Poster Presentation is a way to communicate your research ideas in a pictorial, short and concise format. The content in the technical poster needs to be analyzed, evaluated and creatively presented to grab everyone's attention. From engaging the audience to creating a story during presentation is all where the magic lies.
+                </div> 
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
@@ -268,9 +230,9 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
             </div>
           </div>
           <div class="col-lg-4 col-md-6 portfolio-item filter-paper">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/paper.jpeg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Paper</h4>
+              <h4>Paper Presentation</h4>
               <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
               <button class= "details-link" data-bs-toggle="modal" data-bs-target="#modalscreen2"><i class="bx bx-link"></i></button>            </div>
           </div>
@@ -282,12 +244,8 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id venenatis turpis. Phasellus efficitur nisi enim, in ultricies turpis interdum sit amet. Aenean tristique tempor erat at imperdiet. Duis a nunc ut orci consectetur tempor at id eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur a quam mollis, maximus eros ac, rhoncus nisi. Curabitur quis aliquam lacus, quis congue ligula. Nunc convallis nibh in eros mattis pretium. Vivamus fringilla vestibulum justo ac maximus.
-
-Aliquam porta nunc nec purus vestibulum convallis. Integer malesuada diam nec eros vulputate, et condimentum lacus hendrerit. Phasellus hendrerit ligula in orci sollicitudin fermentum. Phasellus dignissim et sem vel laoreet. Nullam ac ex at dolor ultrices volutpat. Integer rutrum, augue a ullamcorper aliquam, ante augue molestie urna, eu posuere elit elit tempus ipsum. Praesent egestas tempus eros ac gravida. Vestibulum porta dolor eu ipsum dapibus, quis interdum magna congue. Suspendisse auctor massa id risus pretium, non vestibulum nulla gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent gravida ornare turpis id semper. Nulla ac facilisis urna.
-
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras tempor imperdiet est, non hendrerit tortor commodo ac. Maecenas convallis, magna id varius lobortis, nibh metus dictum arcu, tempus egestas ipsum magna id erat. Praesent pellentesque metus orci. Curabitur sed libero ornare, egestas libero at, feugiat lectus. Vestibulum sed turpis sed leo imperdiet rhoncus in nec nulla. Aenean malesuada vitae est quis placerat. Vivamus a condimentum sem.
-                </div>
+                  Technical paper Presentation is one of the divisions in Kagada, where UG/PG/Ph.D. students of various institutions are allowed to present their technical papers in standard IEEE Paper format. There will be 2 tracks namely UG/PG Paper Presentation and WIE Paper Presentation.
+                  </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
@@ -295,9 +253,9 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
             </div>
           </div>
           <div class="col-lg-4 col-md-6 portfolio-item filter-project">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/project.jpeg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Project</h4>
+              <h4>Project Presentation</h4>
               <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
               <button class= "details-link" data-bs-toggle="modal" data-bs-target="#modalscreen3"><i class="bx bx-link"></i></button>
             </div>
@@ -310,11 +268,7 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id venenatis turpis. Phasellus efficitur nisi enim, in ultricies turpis interdum sit amet. Aenean tristique tempor erat at imperdiet. Duis a nunc ut orci consectetur tempor at id eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur a quam mollis, maximus eros ac, rhoncus nisi. Curabitur quis aliquam lacus, quis congue ligula. Nunc convallis nibh in eros mattis pretium. Vivamus fringilla vestibulum justo ac maximus.
-
-Aliquam porta nunc nec purus vestibulum convallis. Integer malesuada diam nec eros vulputate, et condimentum lacus hendrerit. Phasellus hendrerit ligula in orci sollicitudin fermentum. Phasellus dignissim et sem vel laoreet. Nullam ac ex at dolor ultrices volutpat. Integer rutrum, augue a ullamcorper aliquam, ante augue molestie urna, eu posuere elit elit tempus ipsum. Praesent egestas tempus eros ac gravida. Vestibulum porta dolor eu ipsum dapibus, quis interdum magna congue. Suspendisse auctor massa id risus pretium, non vestibulum nulla gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent gravida ornare turpis id semper. Nulla ac facilisis urna.
-
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras tempor imperdiet est, non hendrerit tortor commodo ac. Maecenas convallis, magna id varius lobortis, nibh metus dictum arcu, tempus egestas ipsum magna id erat. Praesent pellentesque metus orci. Curabitur sed libero ornare, egestas libero at, feugiat lectus. Vestibulum sed turpis sed leo imperdiet rhoncus in nec nulla. Aenean malesuada vitae est quis placerat. Vivamus a condimentum sem.
+                  Project Presentation is one of the tracks in Kagada where students are provided with the platform to unleash the potential by showcasing their innovative ideas come into reality. If qualified, a working model of the project has to be presented.
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -324,9 +278,9 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
           </div>
           
           <div class="col-lg-4 col-md-6 portfolio-item filter-votti">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/vottige.jpeg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Vottige Kaliyona</h4>
+              <h4>Ottige Kaliyona</h4>
               <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
               <button class= "details-link" data-bs-toggle="modal" data-bs-target="#modalscreen4"><i class="bx bx-link"></i></button>
             </div>
@@ -339,11 +293,7 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id venenatis turpis. Phasellus efficitur nisi enim, in ultricies turpis interdum sit amet. Aenean tristique tempor erat at imperdiet. Duis a nunc ut orci consectetur tempor at id eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur a quam mollis, maximus eros ac, rhoncus nisi. Curabitur quis aliquam lacus, quis congue ligula. Nunc convallis nibh in eros mattis pretium. Vivamus fringilla vestibulum justo ac maximus.
-
-Aliquam porta nunc nec purus vestibulum convallis. Integer malesuada diam nec eros vulputate, et condimentum lacus hendrerit. Phasellus hendrerit ligula in orci sollicitudin fermentum. Phasellus dignissim et sem vel laoreet. Nullam ac ex at dolor ultrices volutpat. Integer rutrum, augue a ullamcorper aliquam, ante augue molestie urna, eu posuere elit elit tempus ipsum. Praesent egestas tempus eros ac gravida. Vestibulum porta dolor eu ipsum dapibus, quis interdum magna congue. Suspendisse auctor massa id risus pretium, non vestibulum nulla gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent gravida ornare turpis id semper. Nulla ac facilisis urna.
-
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras tempor imperdiet est, non hendrerit tortor commodo ac. Maecenas convallis, magna id varius lobortis, nibh metus dictum arcu, tempus egestas ipsum magna id erat. Praesent pellentesque metus orci. Curabitur sed libero ornare, egestas libero at, feugiat lectus. Vestibulum sed turpis sed leo imperdiet rhoncus in nec nulla. Aenean malesuada vitae est quis placerat. Vivamus a condimentum sem.
+                  Ottige Kaliyona is an event conducted by IEEE UVCE WIE where students from a government school are invited to the college campus. The main aim of the day-long event is to impart technical education to the underprivileged students. Students are engaged in a technical session and fun filled activities, which helps them improve their technical and communication skills. We spend time with the students during lunch as well as before signing their day off with goodies like exam pads, pouches and other stationery.  
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -352,7 +302,7 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
             </div>
           </div>
           <div class="col-lg-4 col-md-6 portfolio-item filter-food">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/food.jpeg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Food for Cause</h4>
               <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
@@ -367,12 +317,7 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id venenatis turpis. Phasellus efficitur nisi enim, in ultricies turpis interdum sit amet. Aenean tristique tempor erat at imperdiet. Duis a nunc ut orci consectetur tempor at id eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur a quam mollis, maximus eros ac, rhoncus nisi. Curabitur quis aliquam lacus, quis congue ligula. Nunc convallis nibh in eros mattis pretium. Vivamus fringilla vestibulum justo ac maximus.
-
-Aliquam porta nunc nec purus vestibulum convallis. Integer malesuada diam nec eros vulputate, et condimentum lacus hendrerit. Phasellus hendrerit ligula in orci sollicitudin fermentum. Phasellus dignissim et sem vel laoreet. Nullam ac ex at dolor ultrices volutpat. Integer rutrum, augue a ullamcorper aliquam, ante augue molestie urna, eu posuere elit elit tempus ipsum. Praesent egestas tempus eros ac gravida. Vestibulum porta dolor eu ipsum dapibus, quis interdum magna congue. Suspendisse auctor massa id risus pretium, non vestibulum nulla gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent gravida ornare turpis id semper. Nulla ac facilisis urna.
-
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras tempor imperdiet est, non hendrerit tortor commodo ac. Maecenas convallis, magna id varius lobortis, nibh metus dictum arcu, tempus egestas ipsum magna id erat. Praesent pellentesque metus orci. Curabitur sed libero ornare, egestas libero at, feugiat lectus. Vestibulum sed turpis sed leo imperdiet rhoncus in nec nulla. Aenean malesuada vitae est quis placerat. Vivamus a condimentum sem.
-                </div>
+                  Food for Cause is an initiative taken up by zealous and energetic volunteers where they will have to prepare and sell delicious snacks and dishes to the participants. The profit received from this initiative will be donated to an NGO. Food for Cause proves to be a successful and an exciting journey for students who are organizing and also acts as a refreshing spot for the participants too.</div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
@@ -438,11 +383,13 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
 
           <div class="col-lg-7 d-flex align-items-stretch">
             <div class="info">
+              <a href="mailto:kagada.ieeeuvce@gmail.com">
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>uvce@gmail.com</p>
+                <p>kagada.ieeeuvce@gmail.com</p>
               </div>
+            </a>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9450806019495!2d77.58469841540014!3d12.975364490853423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1672fcfc6af1%3A0x9c2dc517c9231979!2sUVCE!5e0!3m2!1sen!2sin!4v1664093582270!5m2!1sen!2sin" width="100%" height="60%" style="border:0;margin-bottom: 20px;margin-top: 10px; min-height: 200px;max-height: 400px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
@@ -455,10 +402,10 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
                   <h3>Contact Details</h3>
     
                   <div>
-                  <h2>Mohith Varma V S</h2>
                   <a href="tel:+91 97419 36008">
                   <div class="phone" style="color: #5f687b;">
                     <i class="bi bi-phone"></i>
+                    <h4>Mohith Varma VS</h4>
                     <div style="padding-left: 15%;">
                     <p>+91 97419 36008</p>
                     </div>
@@ -466,34 +413,34 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
                   </a>
                   </div>
                   <div>
-                    <h2>Kavya Bhat</h2>
-                    <a href="tel:+91 97419 36008">
+                    <a href="tel:+91 96113 71838">
                       <div class="phone" style="color: #5f687b;">
                         <i class="bi bi-phone"></i>
+                        <h4>Kavya Bhat</h4>
                         <div style="padding-left: 15%;">
-                        <p>+91 97419 36008</p>
+                        <p>+91 96113 71838</p>
                         </div>
                       </div>
                       </a>
                   </div>
                   <div>
-                    <h2>Kruthin N</h2>
-                    <a href="tel:+91 97419 36008">
+                    <a href="tel:+91 94485 25174">
                       <div class="phone" style="color: #5f687b;">
                         <i class="bi bi-phone"></i>
+                        <h4>Kruthin N</h4>
                         <div style="padding-left: 15%;">
-                        <p>+91 97419 36008</p>
+                        <p>+91 94485 25174</p>
                         </div>
                       </div>
                       </a>
                     </div>
                     <div>
-                      <h2>Nilkant Gunjote</h2>
-                      <a href="tel:+91 97419 36008">
+                      <a href="tel:+91 76662 38014">
                         <div class="phone" style="color: #5f687b;">
                           <i class="bi bi-phone"></i>
+                          <h4>Nilkant Gunjote</h4>
                           <div style="padding-left: 15%;">
-                          <p>+91 97419 36008</p>
+                          <p>+91 76662 38014</p>
                           </div>
                         </div>
                         </a>

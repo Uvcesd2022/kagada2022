@@ -272,5 +272,3 @@ balls.forEach((el, i, ra) => {
       clickable: true
     }
   });
-
-  
