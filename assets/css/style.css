@@ -80,9 +80,9 @@ Button
   box-sizing: border-box;
   appearance: none;
   background-color: transparent;
-  border: 2px solid #111;
+  border: 2px solid #fff;
   border-radius: 0.6em;
-  color: #111;
+  color: #fff;
   cursor: pointer;
   display: flex;
   align-self: center;
@@ -151,7 +151,7 @@ Back to top button
 Header
 */
 #header {
-  background-attachment: url('/kagada-bg.webp');
+  background-attachment: url('/background.webp');
   transition: all 0.5s;
   background-repeat: repeat;
   z-index: 997;
@@ -219,7 +219,7 @@ Navigation Menu
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: #111;
+  color: #fff;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -436,7 +436,7 @@ Navigation Menu
 
 .backgrounds{
   /* background-color: #012364; */
-  background-image: url('/kagada-bg.webp');
+  background-image: url('/background.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -448,7 +448,7 @@ Hero Section
 #hero {
   width: 100%;
   height: 100vh;
-  background-image: url('/kagada2022/kagada-bg.webp');
+  background-image: url('/kagada2022/background.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
